@@ -6,6 +6,7 @@
       "type": "shell",
       "command": "g++",
       "args": [
+        "-pedantic-errors",
         "${file}",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
