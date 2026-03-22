@@ -1,41 +1,39 @@
-# Prerequisites
-*.d
+# ==============================
+# C++ Build Files
+# ==============================
 
-# Compiled Object files
-*.slo
-*.lo
+# Object files
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled headers
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# Libraries
+*.a
+*.lib
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
 
-# debug information files
+# Debug files
+*.pdb
 *.dwo
+*.dSYM/
+
+# Build directories
+build/
+
+# VS Code settings (machine-specific)
+.vscode/
+
+# Dependency files
+*.d
+
+*.log
